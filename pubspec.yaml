@@ -1,0 +1,26 @@
+name: product_app
+description: A Flutter project to manage products.
+
+publish_to: 'none' # Remove this line if you want to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.13
+  image_picker: ^0.8.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background1.png
+    - assets/background.png
+    - assets/banana.jpg
+    - assets/chiku.jpg
+    - assets/jugs.jpg
+    - assets/watch.jpg
